@@ -1,0 +1,6 @@
+li:last-of-type{
+    background-color: pink;
+}
+li:first-of-type{
+    background-color: green;
+}

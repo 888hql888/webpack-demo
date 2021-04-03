@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="../dist/main.js"></script> -->
+    <!-- <script src="./index.js"></script> -->
+    <!-- <script src="../dist/bundle.js"></script> -->
+    <!-- <script src="/bundle.js"></script> -->
+    <!-- <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./a.css"> -->
+<link href="main.css" rel="stylesheet"></head>
+<body>
+    <h1>webpack学习</h1>
+    <h2>冲鸭</h2>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6
+            <span class="glyphicon glyphicon-heart"></span>
+        </li>
+        <!-- 以下路径应该写成 当前路径 （结合 index.html生成在服务器内存中 理解）-->
+
+        <!-- 使用 html-withimg-loader 打包页面的所有图片 -->
+        <!-- 注意这个插件也要和 url-loader 配套使用 -->
+        <!-- *** 此时的路径 正常写 就行，copy-webpack-plugin 的路径要根据根目录来写 -->
+        <!-- copy-webpack-plugin更适合打包一些静态资源，如音频视频等，打包图片首选还是使用这个 html-withimg-plugin插件 -->
+        <img src="../assets/logo.png" alt="">
+        <img src="./images/itcast_logo.png" alt="">
+    </ul>
+    <p>9999999999999</p>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
